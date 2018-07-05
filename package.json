@@ -1,0 +1,15 @@
+{
+  "name": "selfbot",
+  "version": "1.0.0",
+  "description": "Self Bot ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "clout",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+    "request": "2.81.0" 
+  }
+}
