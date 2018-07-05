@@ -1,8 +1,5 @@
 const discord = require("discord.js");
 
-
-const TOKEN = "MjI0MjAyMjE4MTkzMDI3MDcy.Dh_IjA.3KsO8apULPqgfmXKLti_RVg0kLI";
-
 const bot = new discord.Client();
 
 // add message as a parameter to your callback function
@@ -17,8 +14,7 @@ bot.on('message', function(message) {
     }
 });
 
-
-bot.login(TOKEN);
+client.login(process.env.BOT_TOKEN);
 
 // You can run the program by typing node index in cmd
 // The program starts after the time interval is once over
