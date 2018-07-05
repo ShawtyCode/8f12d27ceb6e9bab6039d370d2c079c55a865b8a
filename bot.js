@@ -13,7 +13,7 @@ bot.on('message', function(message) {
             // use the message's channel (TextChannel) to send a new message
             message.channel.send("!disboard bump")
             .catch(console.error); // add error handling here
-        }, 1 * 120); 
+        }, 1 * 7200000); 
     }
 });
 
