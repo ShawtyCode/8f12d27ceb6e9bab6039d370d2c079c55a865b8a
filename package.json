@@ -1,15 +1,13 @@
 {
-  "name": "selfbot",
-  "version": "1.0.0",
-  "description": "Self Bot ",
-  "main": "index.js",
+  "name": "Test",
+  "description": "Test",
+  "version": "0.0.0",
+  "main": "bot.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node bot.js"
   },
-  "author": "clout",
-  "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.3.2"
-    "request": "2.81.0" 
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
   }
 }
