@@ -12,8 +12,8 @@ bot.on('message', function(message) {
             .catch(console.error); // add error handling here
         }, 1 * 7200000);
 client.on('message', msg => {
-  if (msg.content === 'c!autobump') {
-    msg.reply('**c!autobump started** To Stop: Remove the "autobump" permission and add it back again.');
+  if (msg.content === 'c!check') {
+    msg.reply('**@Soul#8275 Ready.** To Start: **c!autobump **  -  **To Stop**: Remove the "autobump" permission and add it back again.');
     }
 });
 
